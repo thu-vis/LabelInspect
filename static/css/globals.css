@@ -1,0 +1,20 @@
+body {
+    font-size: 16px;
+}
+
+.header-button {
+    font-size: 24px;
+    fill: gray;
+    cursor: pointer;
+}
+
+.header-button:hover{
+    fill: black;
+}
+
+#preloader {
+    float: right;
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}

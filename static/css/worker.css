@@ -1,0 +1,136 @@
+
+.axis {
+    fill: black !important;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.dot.dehighlight {
+    /*fill: #eeeeee !important;*/
+    opacity: 0.3 !important;
+}
+
+.dot_arrow.dehighlight path{
+    /*fill: #eeeeee !important;*/
+    opacity: 0.3 !important;
+}
+
+/*.dot_total.dehighlight {*/
+    /*!*fill: #eeeeee !important;*!*/
+    /*opacity: 0.3 !important;*/
+/*}*/
+
+.worker-pie.dehighlight {
+    opacity: 0.3 !important;
+}
+
+.spammer_node > .dot_total{
+    stroke: red !important;
+}
+
+.spammer_node > .worker-pie{
+    stroke: red;
+}
+
+.dot {
+    stroke: none;
+    fill: #7f7f7f;
+}
+
+.dot_total {
+    fill-opacity: 0;
+    stroke: #7f7f7f;
+    stroke-width: 2px;
+    stroke-dasharray: 2px;
+}
+
+.selected > .dot {
+    /*stroke: red !important;*/
+}
+.unselected > .dot {
+    /*fill: #eeeeee !important;*/
+    opacity: 0.3 !important;
+}
+
+.unselected > .dot_arrow path{
+    /*fill: #eeeeee !important;*/
+    opacity: 0.3 !important;
+}
+
+/*.unselected > .dot_total {*/
+    /*!*fill: #eeeeee !important;*!*/
+    /*opacity: 0.3 !important;*/
+/*}*/
+
+.selected > .worker-pie {
+    /*stroke: red !important;*/
+}
+.unselected > .worker-pie {
+    opacity: 0.3 !important;
+}
+
+.extent {
+  fill: #000;
+  fill-opacity: .125;
+  stroke: #fff;
+}
+
+.lasso path {
+    stroke: rgb(80,80,80);
+    stroke-width:2px;
+}
+
+.lasso .drawn {
+    fill-opacity:.05 ;
+}
+
+.lasso .loop_close {
+    fill:none;
+    stroke-dasharray: 4,4;
+}
+
+.lasso .origin {
+    fill:#3399FF;
+    fill-opacity:.5;
+}
+
+.worker-dialog-bg {
+    fill: white;
+    stroke: #ccc;
+    stroke-width: 1px;
+    rx: 5;
+    ry: 5;
+}
+
+.worker-dialog-close-icon {
+    width: 12px;
+    height: 12px;
+    x: 360;
+    y: 6;
+}
+
+.worker-dialog-close-bg {
+    fill: white;
+    width: 28px;
+    height: 24px;
+    x: 351;
+    y: 1;
+}
+
+.worker-dialog-close:hover .worker-dialog-close-bg {
+    fill: red;
+}
+
+.worker-dialog-bar {
+    fill: #6baed6;
+}
+
+.worker-flow-link {
+    fill: none;
+    stroke: #ccc;
+}

@@ -1,0 +1,32 @@
+.matrix-labels {
+    font-size: 20px;
+}
+
+.matrix-labels image{
+    width: 16px;
+    height: 16px;
+    display: none;
+    cursor: pointer;
+}
+
+.matrix-labels .selected {
+    stroke: black;
+    display: block !important;
+}
+
+.matrix-text-value {
+    font-size: 20px;
+}
+
+.matrix-row-bg {
+    opacity: 0;
+    fill: white;
+    fill-opacity: 0;
+    stroke-width: 2px;
+    stroke: black;
+    cursor: pointer;
+}
+
+.matrix-row-bg:hover {
+    opacity: 1;
+}

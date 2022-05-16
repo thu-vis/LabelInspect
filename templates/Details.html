@@ -1,0 +1,38 @@
+{% block rankings %}
+<div class="self-column" id="self-column-2">
+
+    <div class="block-container" id="block-1-2">
+        <div class="my-panel" @*style="display: none" *@>
+            <div>
+                <span class="my-panel-heading"> Worker </span>
+                <!--<span class="save-button header-button" onclick="saveSVG('worker-svg')">Save</span>-->
+            </div>
+            <hr class="my-panel-seg"/>
+        </div>
+    </div>
+
+    <div class="block-container" id="block-2-1" style="overflow-x: hidden; overflow-y: auto;">
+        <div class="my-panel" @*style="display: none" *@>
+            <div>
+                <span class="my-panel-heading"> Details </span>
+            </div>
+        </div>
+        <hr class="my-panel-seg"/>
+        <div class="block-container" id="revision-trail-container">
+            <div>
+                <text style="font-size: 18px; padding-left:0.3%;">Validation Trail</text>
+            </div>
+            <div class="revision-trail">
+
+            </div>
+        </div>
+        <div class="block-container" id="detail-image-container">
+            <div>
+                <text style="font-size: 18px; padding-left:0.3%;">Image</text>
+            </div>
+            <div class="block-container" id="detail-image">
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

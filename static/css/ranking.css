@@ -1,0 +1,14 @@
+.start-line, .end-line, .center-line{
+    fill: white;
+    stroke: black;
+    stroke-width: 1;
+}
+
+.center-line {
+    stroke-dasharray: 3,3;
+}
+
+.links {
+    fill: none;
+    stroke: gray;
+}

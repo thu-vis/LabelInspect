@@ -1,0 +1,57 @@
+.image-node {
+    opacity: 1;
+}
+
+.image-mark {
+    opacity: 0;
+}
+
+.image-node.dehighlight {
+    opacity: 0.3 !important;
+}
+
+.image-node.selected > .image-mark {
+    opacity: 1;
+}
+
+.image-rect {
+    fill: none;
+}
+
+.image-detail-view rect{
+    fill: #42403E;
+}
+.image-arrow {
+    width: 20px;
+    y:-14;
+}
+
+
+.menu-selected {
+    background: greenyellow;
+}
+
+.trail-node {
+    fill: gray;
+    cursor: pointer;
+}
+
+.trail-bg {
+    fill-opacity: 0;
+}
+
+.trail-node:hover > .trail-bg{
+    stroke: black;
+}
+
+.selected > .trail-bg{
+    stroke: black;
+}
+.modal-lg {
+    width: 700px !important;
+}
+
+.validated-dialog-img {
+    display: inline;
+    margin-left: 10px;
+}
