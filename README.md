@@ -41,7 +41,6 @@ If you use this code for your research, please consider citing:
   pages ={235--245},
   year={2019},
 }
-}
 ```
 
 ## Contact
